@@ -5,7 +5,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.ComponentScan;
 
 @SpringBootApplication
-@ComponentScan(basePackages = "com.kilo.klio.controller") // controller 패키지 추가
+@ComponentScan(basePackages = "com.kilo.klio")
 public class KlioApplication {
 
 	public static void main(String[] args) {
